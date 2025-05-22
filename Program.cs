@@ -4,33 +4,35 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("The Tech Academy.");
-        Console.WriteLine("Student Daily Report.");
-        Console.WriteLine(); 
+        Console.WriteLine("Anonymous Income Comparison Program");
 
-        
-        Console.Write("What is your name? ");
-        string studentName = Console.ReadLine();
+        // Person 1
+        Console.WriteLine("Person 1");
+        Console.Write("Hourly Rate? ");
+        decimal hourlyRate1 = Convert.ToDecimal(Console.ReadLine());
+        Console.Write("Hours worked per week? ");
+        decimal hoursPerWeek1 = Convert.ToDecimal(Console.ReadLine());
 
-        Console.Write("What course are you on? ");
-        string courseName = Console.ReadLine();
+        // Person 2
+        Console.WriteLine("Person 2");
+        Console.Write("Hourly Rate? ");
+        decimal hourlyRate2 = Convert.ToDecimal(Console.ReadLine());
+        Console.Write("Hours worked per week? ");
+        decimal hoursPerWeek2 = Convert.ToDecimal(Console.ReadLine());
 
-        Console.Write("What page number? ");
-        int pageNumber = Convert.ToInt32(Console.ReadLine());
+        // Calculate annual salaries
+        decimal annualSalary1 = hourlyRate1 * hoursPerWeek1 * 52;
+        decimal annualSalary2 = hourlyRate2 * hoursPerWeek2 * 52;
 
-        Console.Write("Do you need help with anything? Please answer “true” or “false.” ");
-        bool needsHelp = Convert.ToBoolean(Console.ReadLine());
+        // Display salaries
+        Console.WriteLine("Annual salary of Person 1:");
+        Console.WriteLine(annualSalary1);
+        Console.WriteLine("Annual salary of Person 2:");
+        Console.WriteLine(annualSalary2);
 
-        Console.Write("Were there any positive experiences you’d like to share? Please give specifics. ");
-        string positiveExperiences = Console.ReadLine();
-
-        Console.Write("Is there any other feedback you’d like to provide? Please be specific. ");
-        string additionalFeedback = Console.ReadLine();
-
-        Console.Write("How many hours did you study today? ");
-        double hoursStudied = Convert.ToDouble(Console.ReadLine());
-
-        Console.WriteLine();
-        Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
+        // Compare salaries
+        bool doesPerson1MakeMore = annualSalary1 > annualSalary2;
+        Console.WriteLine("Does Person 1 make more money than Person 2?");
+        Console.WriteLine(doesPerson1MakeMore);
     }
 }
