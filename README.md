@@ -15,11 +15,11 @@ The following files demonstrate small programs and drills that cover basic C# co
 # Anonymous Income Comparison Program
 * Purpose: Compare two users’ annual incomes based on hourly rate and hours worked.
 
-* How it works: The program prompts the user (Person 1) to enter their hourly rate and hours worked per week. It reads those values from the console and parses them into numeric types (usually int or double). It calculates the annual income using a simple formula:
+* How it works: The program prompts the user (Person 1) to enter their hourly rate and hours worked per week. It reads values from the console and converts them to numeric types (usually int or double). It calculates the annual income using a simple formula:
 ```csharp
 annualIncome = hourlyRate * hoursPerWeek * 52;
 ```
-  (52 weeks in a year). The program repeats the input and calculation for Person 2. Finally, it compares the two annual incomes and prints which one is higher (or if they are the same).
+(52 weeks in a year). The program repeats the input and calculation for Person 2. Finally, it compares the two annual incomes and prints which one is higher (or if they are the same).
 
 * Concepts covered: User input/output, type conversion, arithmetic operations, comparison operators.
 
@@ -33,10 +33,10 @@ annualIncome = hourlyRate * hoursPerWeek * 52;
 # Boolean Comparison Program
 * Purpose: Practice boolean logic and comparisons.
 
-* How it works: The program prompts the user for one or more values (e.g., ages, numbers, strings). It evaluates one or more Boolean expressions such as:
+* How it works: The program prompts the user for one or more values (e.g., ages, numbers, strings). It evaluates one or more Boolean expressions, such as:
 ```
 bool result = number1 > number2;
 ```
 It displays the boolean result (true or false) in the console. It may combine comparisons with logical operators such as && (AND) or || (OR) to express compound conditions.
 
-* Concepts covered: Boolean expressions, comparison operators, logical operators, cand onsole output.
+* Concepts covered: Boolean expressions, comparison operators, logical operators, and console output.
