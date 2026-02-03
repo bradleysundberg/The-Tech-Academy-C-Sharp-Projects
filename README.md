@@ -1,9 +1,7 @@
 # The Tech Academy C# Projects
-
 This repository contains my C# console application projects from The Tech Academy. These projects were built in Visual Studio as part of drills and exercises to practice C# fundamentals.
 
 ## Projects
-
 The following files demonstrate small programs and drills that cover basic C# concepts:
 
 * [Anonymous Income Comparison Program](https://github.com/bradleysundberg/The-Tech-Academy-C-Sharp-Projects/tree/main) -- Compare two incomes.
@@ -24,3 +22,21 @@ annualIncome = hourlyRate * hoursPerWeek * 52;
 (52 weeks in a year). The program repeats the input and calculation for Person 2. Finally, it compares the two annual incomes and prints which one is higher (or if they are the same).
 
 * Concepts covered: User input/output, type conversion, arithmetic operations, comparison operators.
+
+# Arrays
+* Purpose: Demonstrate how to declare, populate, and work with arrays.
+
+* How it works: The program creates an array of a specific type (e.g., int[], string[]). It either initializes the array with a set of values or asks the user to input values. It often uses a for or foreach loop to iterate through the array elements. It prints each element to the console or performs operations on them (like summing values, searching for a match, etc.).
+
+* Concepts covered: Array declaration, indexing, loops, iteration, and basic array manipulation.
+
+# Boolean Comparison Program
+* Purpose: Practice boolean logic and comparisons.
+
+* How it works: The program prompts the user for one or more values (e.g., ages, numbers, strings). It evaluates one or more Boolean expressions such as:
+```
+bool result = number1 > number2;
+```
+It displays the boolean result (true or false) in the console. It may combine comparisons with logical operators such as && (AND) or || (OR) to express compound conditions.
+
+* Concepts covered: Boolean expressions, comparison operators, logical operators, cand onsole output.
