@@ -40,3 +40,17 @@ bool result = number1 > number2;
 It displays the boolean result (true or false) in the console. It may combine comparisons with logical operators such as && (AND) or || (OR) to express compound conditions.
 
 * Concepts covered: Boolean expressions, comparison operators, logical operators, and console output.
+
+# Car Insurance Approval Program
+* Purpose: Practice decision-making with conditionals to determine whether a candidate qualifies for insurance.
+
+* How it works: The program asks the user a series of questions (e.g., age, whether they have a driver’s license, car make/model). It evaluates each answer against eligibility criteria such as “must be at least 18 years old.” Based on the answers, it prints a result like “Qualified” or “Not qualified to receive insurance.”
+
+* Concepts covered: User input, conditional statements (if, else if, else), and basic input validation.
+
+# Student Daily Report Program
+* Purpose: A “Daily Report” console input program.
+
+* How it works: Prompts the user with a series of questions: “What is your name?”, “What course are you on?”, “What page number are you on?” Reads and stores user input. Outputs a formatted summary confirming the responses.
+
+* Concepts covered: String variables, console input/output, and simple data collection.
