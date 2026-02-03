@@ -54,3 +54,10 @@ It displays the boolean result (true or false) in the console. It may combine co
 * How it works: Prompts the user with a series of questions: “What is your name?”, “What course are you on?”, “What page number are you on?” Reads and stores user input. Outputs a formatted summary confirming the responses.
 
 * Concepts covered: String variables, console input/output, and simple data collection.
+
+# Loops
+* Purpose: Practice loops, arrays, and lists.
+
+* How it works: Repeatedly asks the user to enter text, then appends that text to every string in a fixed array of greeting messages ("Hello", "Welcome", etc.) Shows and searches a list with duplicates. Contains multiple lists of items that includes repeated items (Apple, Banana, …) Lets the user search for any text → finds and reports the first matching position (case-insensitive). Detects and highlights duplicates using HashSet. Runs in an infinite loop until the user types "exit".
+
+* Concepts covered: Loop styles, linear search, duplicate detection with HashSet.
