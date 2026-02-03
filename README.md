@@ -10,7 +10,7 @@ The following files demonstrate small programs and drills that cover basic C# co
 * [Arrays](https://github.com/bradleysundberg/The-Tech-Academy-C-Sharp-Projects/blob/main/Arrays.cs) — Practice arrays and array operations.
 * [Boolean Comparison Program](https://github.com/bradleysundberg/The-Tech-Academy-C-Sharp-Projects/blob/main/Boolean%20Comparison%20Program.cs) — Simple Boolean logic output.
 * [Car Insurance Approval Program](https://github.com/bradleysundberg/The-Tech-Academy-C-Sharp-Projects/blob/main/Car%20Insurance%20Approval%20Program.cs) — Conditional statements using user input.
-- **Income Comparison Program** — Compare user input values.
+* [Student Daily Report Program](https://github.com/bradleysundberg/The-Tech-Academy-C-Sharp-Projects/blob/main/Student%20Daily%20Report%20Program.cs) — Compare user input values.
 - **Shipping Quote Program** — Simple calculation of a shipping quote.
 - **DR.cs** — (Add a brief description once finalized.)
 
