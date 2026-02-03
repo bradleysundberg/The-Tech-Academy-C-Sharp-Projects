@@ -7,7 +7,7 @@ This repository contains my C# console application projects from The Tech Academ
 The following files demonstrate small programs and drills that cover basic C# concepts:
 
 * [Anonymous Income Comparison Program](https://github.com/bradleysundberg/The-Tech-Academy-C-Sharp-Projects/tree/main) — Compare two incomes.
-- **Arrays** — Practice arrays and array operations.
+* [Arrays](https://github.com/bradleysundberg/The-Tech-Academy-C-Sharp-Projects/blob/main/Arrays.cs) — Practice arrays and array operations.
 - **Boolean Comparison Program** — Simple boolean logic output.
 - **Car Insurance Approval Program** — Conditional statements using user input.
 - **Income Comparison Program** — Compare user input values.
