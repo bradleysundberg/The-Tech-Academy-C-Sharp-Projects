@@ -58,6 +58,17 @@ It displays the boolean result (true or false) in the console. It may combine co
 # Loops
 * Purpose: Practice loops, arrays, and lists.
 
-* How it works: Repeatedly asks the user to enter text, then appends that text to every string in a fixed array of greeting messages ("Hello", "Welcome", etc.) Shows and searches a list with duplicates. Contains multiple lists of items that includes repeated items (Apple, Banana, …) Lets the user search for any text → finds and reports the first matching position (case-insensitive). Detects and highlights duplicates using HashSet. Runs in an infinite loop until the user types "exit".
+* How it works: The program modifies greetings, demonstrates basic loops, shows how to search lists, and detects duplicates — all in a loop until you choose to quit.
 
 * Concepts covered: Loop styles, linear search, duplicate detection with HashSet.
+
+# Shipping Quote Program
+* Purpose: Calculate a simple shipping cost based on package dimensions and weight.
+
+* How it works: Prompts the user for package width, height, and length. Calculates a dimension total (often width + height + length). May use this total with weight to determine whether the package can be shipped — e.g., if dimension totals exceed a certain threshold, it prints a rejection message. Otherwise, it calculates a shipping cost using a simple formula, something like:
+```
+int quote = (dimensionTotal * weight) / someFactor;
+```
+Displays the result.
+
+* Concepts covered: Input parsing, basic arithmetic, and  control logic.
