@@ -19,7 +19,7 @@ The following files demonstrate small programs and drills that cover basic C# co
 ```csharp
 annualIncome = hourlyRate * hoursPerWeek * 52;
 ```
-(52 weeks in a year). The program repeats the input and calculation for Person 2. Finally, it compares the two annual incomes and prints which one is higher (or if they are the same).
+  (52 weeks in a year). The program repeats the input and calculation for Person 2. Finally, it compares the two annual incomes and prints which one is higher (or if they are the same).
 
 * Concepts covered: User input/output, type conversion, arithmetic operations, comparison operators.
 
