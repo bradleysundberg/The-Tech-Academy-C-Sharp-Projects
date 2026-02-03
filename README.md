@@ -25,3 +25,11 @@ Each file should be run as a console app within Visual Studio.
 ## How to Run
 
 1. Clone this repository:
+2. Open the folder in Visual Studio.
+3. Set the project as a C# console application.
+4. Build and run each file to see the output in the console.
+
+## Notes
+
+- Files are named according to the concept or drill they cover.
+- These were created in Visual Studio as part of The Tech Academy training.
