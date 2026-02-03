@@ -12,7 +12,6 @@ The following files demonstrate small programs and drills that cover basic C# co
 * [Car Insurance Approval Program](https://github.com/bradleysundberg/The-Tech-Academy-C-Sharp-Projects/blob/main/Car%20Insurance%20Approval%20Program.cs) — Conditional statements using user input.
 * [Student Daily Report Program](https://github.com/bradleysundberg/The-Tech-Academy-C-Sharp-Projects/blob/main/Student%20Daily%20Report%20Program.cs) — Collects student feedback.
 * [Shipping Quote Program](https://github.com/bradleysundberg/The-Tech-Academy-C-Sharp-Projects/blob/main/Shipping%20Quote%20Program.cs) — Simple calculation of a shipping quote.
-- **DR.cs** — (Add a brief description once finalized.)
 
 (Each file in this repository represents a small console project from Tech Academy lessons.)
 
